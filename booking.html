@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Your Stay - Harna Resort</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="booking-page">
+
+        <h2>Book Your Stay</h2>
+
+        <div class="booking-card">
+
+            <h3>Reservation Details</h3>
+
+            <form id="booking-form">
+
+                <label>Full Name</label>
+                <input
+                    type="text"
+                    id="booking-name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+                <label>Email</label>
+                <input
+                    type="email"
+                    id="booking-email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <label>Check-in Date</label>
+                <input
+                    type="date"
+                    id="check-in"
+                    required
+                >
+
+                <label>Check-out Date</label>
+                <input
+                    type="date"
+                    id="check-out"
+                    required
+                >
+
+                <label>Number of Guests</label>
+                <input
+                    type="number"
+                    id="booking-guests"
+                    min="1"
+                    placeholder="Number of guests"
+                    required
+                >
+
+                <label>Select Room</label>
+                <select id="booking-room" required>
+                    <option value="">Select a room</option>
+                    <option value="Deluxe Room">Deluxe Room</option>
+                    <option value="Cottage Room">Cottage Room</option>
+                    <option value="Premium Room">Premium Room</option>
+                    <option value="Suite Room">Suite Room</option>
+                    <option value="Beach View Bubble Room">
+                        Beach View Bubble Room
+                    </option>
+                    <option value="Mountain View Bubble Room">
+                        Mountain View Bubble Room
+                    </option>
+                </select>
+
+                <button type="submit">Confirm Booking</button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Profile - Paradise Retreat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="profile-page">
+
+        <h2>My Profile</h2>
+
+        <div class="profile-card">
+
+            <!-- Profile Photo -->
+            <div class="profile-icon">
+                👤
+            </div>
+
+            <!-- Name -->
+            <h3>Guest User</h3>
+
+            <!-- Verified Badge -->
+            <span class="verified-badge">✓ Verified Guest</span>
+
+            <!-- Profile Information -->
+            <div class="profile-info">
+
+                <p>
+                    <strong>Email</strong>
+                    <span id="profile-email">guest@example.com</span>
+                </p>
+
+                <p>
+                    <strong>Phone</strong>
+                    <span id="profile-phone">+91 98765 43210</span>
+                </p>
+
+                <p>
+                    <strong>Location</strong>
+                    <span id="profile-location">Karnataka</span>
+                </p>
+
+            </div>
+
+            <!-- Buttons -->
+            <div class="profile-buttons">
+
+                <button type="button" onclick="editProfile()">
+                    Edit Profile
+                </button>
+
+            </div>
+
+            <!-- Profile Completion -->
+            <div class="profile-completion">
+
+                <div class="completion-header">
+                    <span>Profile Completion</span>
+                    <span id="completion-percent">80%</span>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+
+            </div>
+
+            <!-- Guest Information -->
+            <div class="guest-details">
+
+                <div>
+                    <span class="detail-label">Guest ID</span>
+                    <strong>PR-1001</strong>
+                </div>
+
+                <div>
+                    <span class="detail-label">Member Since</span>
+                    <strong>September 2026</strong>
+                </div>
+
+            </div>
+
+            <!-- Quick Actions -->
+            <h4 class="profile-section-title">My Account</h4>
+
+            <div class="profile-actions">
+
+                <a href="my-booking.html" class="profile-action-card">
+                    <span class="action-icon">🏨</span>
+                    <span>My Bookings</span>
+                </a>
+
+                <a href="Review.html" class="profile-action-card">
+                    <span class="action-icon">⭐</span>
+                    <span>My Reviews</span>
+                </a>
+
+                <a href="Rooms.html" class="profile-action-card">
+                    <span class="action-icon">❤️</span>
+                    <span>Saved Rooms</span>
+                </a>
+
+                <a class="profile-action-card" onclick="openSettings()">
+                    <span class="action-icon">⚙️</span>
+                    <span>Settings</span>
+                </a>
+
+            </div>
+
+            <!-- Guest Preferences -->
+            <h4 class="profile-section-title">Guest Preferences</h4>
+
+            <div class="preferences-box">
+
+                <div class="preference-item">
+                    <span>🛏️ Preferred Room</span>
+                    <strong>Deluxe Room</strong>
+                </div>
+
+                <div class="preference-item">
+                    <span>🏊 Favourite Activity</span>
+                    <strong>Swimming</strong>
+                </div>
+
+            </div>
+
+            
+            <button type="button" id="logout-btn" class="logout-btn">Logout</button>
+
+        </div>
+
+    </section>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

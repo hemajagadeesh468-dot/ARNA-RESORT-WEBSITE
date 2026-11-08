@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Create Account | ARNA RETREAT</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="auth-page">
+
+    <div class="auth-container signup-layout">
+
+        <!-- Left Side -->
+        <div class="auth-image signup-image">
+            <div class="auth-image-content">
+                <span class="auth-label">EXPERIENCE SOMETHING SPECIAL</span>
+
+                <h1>Make every stay memorable.</h1>
+
+                <p>
+                    Create your account and discover
+                    a more comfortable way to relax,
+                    explore and unwind.
+                </p>
+            </div>
+        </div>
+
+        <!-- Right Side -->
+        <div class="auth-form-section signup-form-section">
+
+            <a href="home.html" class="auth-logo">
+                ARNA <span>RETREAT</span>
+            </a>
+
+            <div class="auth-heading">
+                <h2>Create Account</h2>
+
+                <p>Join us for a relaxing experience.</p>
+            </div>
+
+            <form id="signupForm">
+
+                <div class="form-group">
+                    <label for="signupName">Full Name</label>
+
+                    <input
+                        type="text"
+                        id="signupName"
+                        name="name"
+                        placeholder="Enter your full name"
+                        autocomplete="name"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="signupEmail">Email Address</label>
+
+                    <input
+                        type="email"
+                        id="signupEmail"
+                        name="email"
+                        placeholder="Enter your email"
+                        autocomplete="email"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="signupPhone">Mobile Number</label>
+                    <input
+                        type="tel"
+                        id="signupPhone"
+                        name="phone"
+                        placeholder="Enter your mobile number"
+                        pattern="[0-9]{10}"
+                        maxlength="10"
+                        inputmode="numeric"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="signupPassword">Create Password</label>
+
+                    <input
+                        type="password"
+                        id="signupPassword"
+                        name="password"
+                        placeholder="Create a password"
+                        autocomplete="new-password"
+                        minlength="10"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+
+                    <input
+                        type="password"
+                        id="confirmPassword"
+                        name="confirmPassword"
+                        placeholder="Re-enter your password"
+                        autocomplete="new-password"
+                        minlength="10"
+                        required
+                    >
+                </div>
+
+                <button type="submit" class="auth-button">
+                    Create Account
+                    <span>→</span>
+                </button>
+
+                <p id="signupMessage" class="auth-message"
+                   aria-live="polite"></p>
+
+            </form>
+
+            <div class="auth-divider">
+                <span>BEGIN YOUR RETREAT JOURNEY</span>
+            </div>
+
+            <p class="auth-switch">
+                Already have an account?
+                <a href="login.html">Sign In</a>
+            </p>
+
+            
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

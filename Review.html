@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Guest Reviews - Harna Resort</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- WRITE A REVIEW BUTTON -->
+    <div class="review-button-container">
+        <button type="button" class="write-review-btn" id="open-review">
+            ✍️ Write a Review
+        </button>
+    </div>
+
+    <!-- GUEST REVIEWS SECTION -->
+    <section id="reviews">
+
+        <h2>Guest Reviews</h2>
+
+        <p class="reviews-intro">
+            Real stories from the people who make our resort so special.
+        </p>
+
+        <!-- EXISTING SAMPLE REVIEWS -->
+        <div class="reviews-container">
+
+            <div class="review-card">
+                <h3>Kavya</h3>
+                <p class="stars">★★★★★</p>
+                <p>
+                    Amazing resort with beautiful rooms and excellent
+                    service. We had a wonderful stay.
+                </p>
+            </div>
+
+            <div class="review-card">
+                <h3>Rahul</h3>
+                <p class="stars">★★★★☆</p>
+                <p>
+                    The rooms were clean and comfortable. The food
+                    and facilities were also very good.
+                </p>
+            </div>
+
+            <div class="review-card">
+                <h3>Ananya</h3>
+                <p class="stars">★★★★★</p>
+                <p>
+                    A peaceful place to relax with family. The staff
+                    were friendly and helpful.
+                </p>
+            </div>
+
+            <div class="review-card">
+                <h3>Arjun</h3>
+                <p class="stars">★★★★☆</p>
+                <p>
+                    Beautiful location and lots of activities to enjoy.
+                    Definitely a great place for a vacation.
+                </p>
+            </div>
+
+            <div class="review-card">
+                <h3>Rohan</h3>
+                <p class="stars">★★★★★</p>
+                <p>
+                    The resort exceeded our expectations. Beautiful rooms,
+                    friendly staff and a memorable stay.
+                </p>
+            </div>
+
+            <div class="review-card">
+                <h3>Priya</h3>
+                <p class="stars">★★★★★</p>
+                <p>
+                    The resort was beautiful and peaceful. The rooms were
+                    comfortable and the service was excellent.
+                </p>
+            </div>
+
+            <div class="review-card">
+                <h3>Vikram</h3>
+                <p class="stars">★★★★☆</p>
+                <p>
+                    We really enjoyed the food and outdoor activities.
+                    A great place for a relaxing holiday.
+                </p>
+            </div>
+
+            <div class="review-card">
+                <h3>Rohan</h3>
+                <p class="stars">★★★★★</p>
+                <p>
+                    The resort exceeded our expectations. Beautiful rooms,
+                    friendly staff and a memorable stay.
+                </p>
+            </div>
+
+            <div class="review-card">
+                <h3>Meera</h3>
+                <p class="stars">★★★★★</p>
+                <p>
+                    The location was amazing and the staff were very
+                    welcoming. We would love to visit again.
+                </p>
+            </div>
+
+            <div class="review-card">
+                <h3>Aditya</h3>
+                <p class="stars">★★★★★</p>
+                <p>
+                    Excellent experience from check-in to check-out.
+                    Everything was clean, comfortable and well managed.
+                </p>
+            </div>
+
+            <div class="review-card">
+                <h3>Kavya</h3>
+                <p class="stars">★★★★☆</p>
+                <p>
+                    A wonderful resort for families. We enjoyed the pool,
+                    food and beautiful surroundings.
+                </p>
+            </div>
+
+            <div class="review-card">
+                <h3>Rohan</h3>
+                <p class="stars">★★★★★</p>
+                <p>
+                    The resort exceeded our expectations. Beautiful rooms,
+                    friendly staff and a memorable stay.
+                </p>
+            </div>
+
+        </div>
+
+    <!-- GUEST-SUBMITTED REVIEWS -->
+        <div class="guest-reviews-section">
+            
+            <div class="reviews-container" id="guest-reviews-container">
+                <p>Loading reviews...</p>
+            </div>
+
+        </div>
+
+        <!-- WRITE A REVIEW POPUP -->
+        <div class="review-modal" id="review-modal">
+
+            <div class="review-modal-content">
+
+                <button
+                    type="button"
+                    class="close-review"
+                    id="close-review"
+                    aria-label="Close">
+                    &times;
+                </button>
+
+                <h2>Write Your Review</h2>
+
+                <p>Share your experience with us!</p>
+
+                <form id="review-form">
+
+                    <label for="review-name">Your Name</label>
+
+                    <input
+                        type="text"
+                        id="review-name"
+                        placeholder="Enter your name"
+                        required
+                    >
+
+                    <label for="review-rating">Your Rating</label>
+
+                    <select id="review-rating" required>
+
+                        <option value="">Select your rating</option>
+
+                        <option value="5">★★★★★ - Excellent</option>
+
+                        <option value="4">★★★★☆ - Very Good</option>
+
+                        <option value="3">★★★☆☆ - Good</option>
+
+                        <option value="2">★★☆☆☆ - Fair</option>
+
+                        <option value="1">★☆☆☆☆ - Poor</option>
+
+                    </select>
+
+                    <label for="review-message">Your Review</label>
+
+                    <textarea
+                        id="review-message"
+                        placeholder="Share your experience..."
+                        rows="5"
+                        required
+                    ></textarea>
+
+                    <button type="submit" class="submit-review-btn">
+                        Submit Review
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
