@@ -310,7 +310,7 @@ def get_reviews():
 # Test the backend
 @app.route("/")
 def home():
-    return "Harna Resort Backend is Running!"
+    return "Arna Resort Backend is Running!"
 
 
 # Signup API

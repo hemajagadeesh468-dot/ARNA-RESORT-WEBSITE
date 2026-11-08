@@ -610,7 +610,7 @@ if (bookingForm) {
             console.error("Booking error:", error);
 
             alert(
-                "Cannot connect to Harna Resort. " +
+                "Cannot connect to Arna Resort. " +
                 "Please check whether the backend is running."
             );
         }
@@ -679,7 +679,7 @@ if (contactForm) {
             console.error("Contact form error:", error);
 
             alert(
-                "Cannot connect to Harna Resort. " +
+                "Cannot connect to Arna Resort. " +
                 "Please check whether the backend is running."
             );
         }
@@ -764,7 +764,7 @@ if (bookingsContainer) {
             console.error("Bookings error:", error);
 
             bookingsContainer.textContent =
-                "Cannot connect to Harna Resort. Please check the backend.";
+                "Cannot connect to Arna Resort. Please check the backend.";
         }
     }
 
@@ -772,7 +772,7 @@ if (bookingsContainer) {
 }
 
 // ========================================
-// HARNA RESORT - REVIEWS SYSTEM
+// ARNA RESORT - REVIEWS SYSTEM
 // ========================================
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -1060,7 +1060,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 console.error("Login error:", error);
 
                 alert(
-                    "Cannot connect to Harna Resort. " +
+                    "Cannot connect to Arna Resort. " +
                     "Please check whether the backend is running."
                 );
             }
@@ -1160,7 +1160,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 console.error("Signup error:", error);
 
                 alert(
-                    "Cannot connect to Harna Resort. " +
+                    "Cannot connect to Arna Resort. " +
                     "Please check whether the backend is running."
                 );
             }
