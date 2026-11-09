@@ -575,7 +575,7 @@ if (bookingForm) {
         try {
 
             const response = await fetch(
-                "http://127.0.0.1:5000/api/bookings",
+                "http://arna-resort-website.onrender.com/api/bookings",
                 {
                     method: "POST",
                     headers: {
@@ -646,7 +646,7 @@ if (contactForm) {
         try {
 
             const response = await fetch(
-                "http://127.0.0.1:5000/api/contact",
+                "http://arna-resort-website.onrender.com/api/contact",
                 {
                     method: "POST",
                     headers: {
@@ -706,7 +706,7 @@ if (bookingsContainer) {
         try {
 
             const response = await fetch(
-                "http://127.0.0.1:5000/api/bookings?email=" +
+                "http://arna-resort-website.onrender.com/api/bookings?email=" +
                 encodeURIComponent(email)
             );
 
@@ -823,7 +823,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         try {
             const response = await fetch(
-                "http://127.0.0.1:5000/api/reviews"
+                "http://arna-resort-website.onrender.com/api/reviews"
             );
 
             if (!response.ok) {
@@ -914,7 +914,7 @@ document.addEventListener("DOMContentLoaded", function () {
             try {
 
                 const response = await fetch(
-                    "http://127.0.0.1:5000/api/reviews",
+                    "http://arna-resort-website.onrender.com/api/reviews",
                     {
                         method: "POST",
 
@@ -1024,7 +1024,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             try {
                 const response = await fetch(
-                    "http://127.0.0.1:5000/api/login",
+                    "http://arna-resort-website.onrender.com/api/login",
                     {
                         method: "POST",
                         headers: {
@@ -1115,7 +1115,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             try {
                 const response = await fetch(
-                    "http://127.0.0.1:5000/api/signup",
+                    "http://arna-resort-website.onrender.com/api/signup",
                     {
                         method: "POST",
                         headers: {
