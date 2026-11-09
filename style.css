@@ -4624,6 +4624,7 @@ body:has(#reviews) {
 
 .profile-action-card .action-icon {
     color: #565449;
+    align-items: center;
     font-size: 25px;
 }
 
@@ -5815,6 +5816,7 @@ border: 1px solid #565449;
 border-radius: 12px;
 padding: 25px;
 text-align: left;
+justify-content: center;
 box-shadow: 0 5px 18px rgba(17, 18, 13, 0.08);
 box-sizing: border-box;
 }
@@ -5846,23 +5848,6 @@ transition: background-color 0.3s ease;
 #my-bookings-page > a:hover {
 background-color: #11120D;
 color: #FFFBF4;
-}
-
-/* My Bookings Responsive Design */
-
-@media (max-width: 700px) {
-#bookings-container {
-grid-template-columns: 1fr;
-}
-
-#my-bookings-page {
-    padding: 35px 5%;
-}
-
-#my-bookings-page h2 {
-    font-size: 28px;
-}
-
 }
 
 /* MY BOOKINGS PAGE - MOBILE RESPONSIVE */
