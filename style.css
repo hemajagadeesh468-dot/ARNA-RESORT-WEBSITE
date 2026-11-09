@@ -4491,18 +4491,6 @@ body:has(#reviews) {
     border-radius: 50%;
 }
 
-/* AVATAR OPTIONS */
-
-.avatar-option {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    cursor: pointer;
-    font-size: 23px;
-    border: 1px solid #aaa;
-    background: #f5f1e8;
-}
-
 /* Profile Name */
 
 .profile-card h3 {
