@@ -4467,6 +4467,42 @@ body:has(#reviews) {
     object-fit: cover;
 }
 
+
+/* EDIT PROFILE AVATAR PREVIEW */
+
+.edit-photo-preview {
+    width: 110px;
+    height: 110px;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #D8CFBC;
+    border: 2px solid #565449;
+    border-radius: 50%;
+    font-size: 45px;
+}
+
+.edit-photo-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* AVATAR OPTIONS */
+
+.avatar-option {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 23px;
+    border: 1px solid #aaa;
+    background: #f5f1e8;
+}
+
 /* Profile Name */
 
 .profile-card h3 {
