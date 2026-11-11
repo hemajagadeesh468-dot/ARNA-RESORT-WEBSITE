@@ -5931,3 +5931,16 @@ color: #FFFBF4;
 }
 
 }
+.profile-edit-popup {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.profile-edit-content {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: relative !important;
+    z-index: 10000 !important;
+}
