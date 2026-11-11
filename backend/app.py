@@ -416,7 +416,7 @@ def login():
         }), 200
 
     finally:
-        connection.close()
+        connection.close()    
 
 if __name__ == "__main__":
     create_database()
